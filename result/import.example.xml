@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Items>
+    <Item>
+        <Name>Item name</Name>
+        <Description>Item description</Description>
+        <Category>Item category</Category>
+        <Subcategory>Item subcategory</Subcategory>
+        <Destination>Item destination</Destination>
+        <Price>Price in USD</Price>
+        <Count>Count in lot</Count>
+        <Package>
+        <!-- Packege parameters -->
+            <Width>Width in centimeters</Width>
+            <Height>Height in centimeters</Height>
+            <Length>Length in centimeters</Length>
+            <Weight>Weight in kilograms</Weight>
+        </Package>
+        <Variants>
+            <Variant name="Variant name (Color, size, etc.)">
+                <Value>Variant</Value>
+                <Value>Variant</Value>
+                <Value>Variant</Value>
+                <!-- ..... -->
+            </Variant>
+        </Variants>
+        <Images>
+            <Image>Link to image</Image>
+            <Image>Link to image</Image>
+            <Image>Link to image</Image>
+            <!-- ..... -->
+        </Images>
+    </Item>
+</Items>

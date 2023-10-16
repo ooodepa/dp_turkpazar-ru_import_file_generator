@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "name": "Item name",
+      "description": "Item description",
+      "category": "Item category",
+      "subcategory": "Item subcategory",
+      "destination": "Item destination",
+      "price": "Price in USD",
+      "count": "Count in lot",
+      "package": {
+        "width": "width in centimeters",
+        "height": "width in centimeters",
+        "length": "width in centimeters",
+        "weight": "width in centimeters"
+      },
+      "variants": [
+        {
+          "name": "variant name",
+          "value": ["Variant value", "Variant value", "Variant value", "..."]
+        }
+      ],
+      "images": ["link to image", "link to image", "link to image", "..."]
+    }
+  ]
+}
